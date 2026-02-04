@@ -3,18 +3,21 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Las Casas - Tênis e Sneakers Online</title>
+		<title>SyntaxWear - Tênis e Sneakers Online</title>
 
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/variables.css" />
 		<link rel="stylesheet" href="./css/base.css" />
 		<link rel="stylesheet" href="./css/layout.css" />
+
+		<link rel="stylesheet" href="./css/components/header.css" />
+		<link rel="stylesheet" href="./css/components/hero.css" />
 	</head>
 	<body>
-		<header class="site-header">
+		<header class="header">
 			<!-- Logo e navegação -->
 			<h1 class="logo">
-				<a href="/" title="Las Casas - Tênis e Sneakers Online">
+				<a href="/" title="SyntaxWear - Tênis e Sneakers Online">
 					<img src="./images/logo/logo.png" alt="SyntaxWear - Tênis e Sneakers Online" />
 				</a>
 			</h1>
@@ -33,17 +36,17 @@
 					<li><a href="#">Sobre</a></li>
 					<li>
 						<a href="#" aria-label="Minha conta">
-							<img src="./images/icons/user.svg" alt="Minha conta" />
+							<img src="./images/icons/user.png" alt="Minha conta" />
 						</a>
 					</li>
 					<li>
 						<a href="#" aria-label="Ajuda">
-							<img src="./images/icons/help.svg" alt="Ajuda" />
+							<img src="./images/icons/help.png" alt="Ajuda" />
 						</a>
 					</li>
 					<li>
 						<a href="#" aria-label="Carrinho">
-							<img src="./images/icons/bag.svg" alt="Carrinho" />
+							<img src="./images/icons/bag.png" alt="Carrinho" />
 						</a>
 					</li>
 				</ul>
@@ -53,7 +56,16 @@
 		<main>
 			<section class="hero-section">
 				<!-- Seção hero -->
-				<h1>titulo</h1>
+				<div class="hero-overlay">
+					<div class="hero-content">
+						<span class="hero-subtitle">Las Casas Store</span>
+						<h2 class="hero-title">Vista-se bem, como minha esposa.</h2>
+						<div class="hero-buttons">
+							<a class="btn btn-outline" href="#">Ver modelos</a>
+							<a class="btn btn-filled" href="#">Comprar</a>
+						</div>
+					</div>
+				</div>
 			</section>
 
 			<section class="categories-section">
