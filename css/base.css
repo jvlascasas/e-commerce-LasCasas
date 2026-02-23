@@ -35,11 +35,11 @@ main{
 
 .btn-filled{
     background-color: #ffffff;
-    color: #6329A2;
+    color: #ee4236;
 }
 
 .btn:hover{
-    background-color: #6329A2;
+    background-color: #ee4236;
     color: #ffffff;
-    border-color: #6329A2;
+    border-color: #ee4236;
 }
